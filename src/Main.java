@@ -3,6 +3,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		EstruturaSequencial eS = new EstruturaSequencial();
+		EstruturaDecisao eD = new EstruturaDecisao();
 		
 		eS.ex1();
 		eS.ex2(5);
