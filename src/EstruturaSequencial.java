@@ -1,27 +1,27 @@
-import java.text.DecimalFormat;
+import java.text.*;
 
 public class EstruturaSequencial {
 	public void ex1() {
 		//Faça um programa que mostre a mensagem "Alo Mundo!" na tela.
-		System.out.println("1) Alô Mundo!");
+		System.out.println("L1-1) Alô Mundo!");
 	}
 	
 	public void ex2(int n) {
 		//Faça um programa que peça um número e então mostre a mensagem: "O número informado foi [número]".
-		System.out.println("2) O número informado foi " + n + ".");
+		System.out.println("L1-2) O número informado foi " + n + ".");
 	}
 	
 
 	public void ex3(int x, int y) {
 		//Faça um Programa que peça dois números e imprima a soma.
-		System.out.println("3) Primeiro Numero é " + x + "." + " Segundo Numero é " + y + "." + " Soma dos Numeros é " + (x+y) + ".");
+		System.out.println("L1-3) Primeiro Numero é " + x + "." + " Segundo Numero é " + y + "." + " Soma dos Numeros é " + (x+y) + ".");
 	}
 	
 	public void ex4(double b1, double b2, double b3, double b4) {
 		//Faça um programa que imprima quatro notas bimestrais e mostre a média.
 		DecimalFormat formato = new DecimalFormat("#.##");
 		
-		System.out.println("4) Nota B1 " + b1 + "." + " Nota B2 " + b2 + "." + " Nota B3 " + b3 + "." + " Nota B4 " + b4 + "." + " Media Final " + formato.format((b1+b2+b3+b4)/4) + ".");
+		System.out.println("L1-4) Nota B1 " + b1 + "." + " Nota B2 " + b2 + "." + " Nota B3 " + b3 + "." + " Nota B4 " + b4 + "." + " Media Final " + formato.format((b1+b2+b3+b4)/4) + ".");
 	}
 	
 	public void ex5(double m) {
@@ -30,7 +30,7 @@ public class EstruturaSequencial {
 		DecimalFormat formato = new DecimalFormat("#");
 		double c = m*1000;
 		
-		System.out.println("5) Convertendo " + m + " metros, temos " + formato.format(c) + " centímetros.");
+		System.out.println("L1-5) Convertendo " + m + " metros, temos " + formato.format(c) + " centímetros.");
 	}
 	
 	public void ex6(double r) {
@@ -39,7 +39,7 @@ public class EstruturaSequencial {
 		DecimalFormat formato = new DecimalFormat("#.##");
 		double a = (3.14*(r*r));
 		
-		System.out.println("6) A área de um círculo de raio " + formato.format(r) + " é igual a " + formato.format(a) + ".");
+		System.out.println("L1-6) A área de um círculo de raio " + formato.format(r) + " é igual a " + formato.format(a) + ".");
 	}
 	
 	public void ex7(double l) {
@@ -48,7 +48,7 @@ public class EstruturaSequencial {
 		DecimalFormat formato = new DecimalFormat("#.##");
 		double a = l*l;
 		
-		System.out.println("7) A área de um quadrado de lado " + formato.format(l) + " é igual a " + formato.format(a) + " e o dobro desta área é " + formato.format(2*a) + ".");
+		System.out.println("L1-7) A área de um quadrado de lado " + formato.format(l) + " é igual a " + formato.format(a) + " e o dobro desta área é " + formato.format(2*a) + ".");
 	}
 	
 	public void ex8(double v, int t) {
@@ -57,7 +57,7 @@ public class EstruturaSequencial {
 		DecimalFormat formato = new DecimalFormat("#.##");
 		double s = v*t;
 		
-		System.out.println("8) O salário do referido mês é de R$ " + formato.format(s) + ".");
+		System.out.println("L1-8) O salário do referido mês é de R$ " + formato.format(s) + ".");
 	}
 	
 	public void ex9(double F) {
@@ -66,7 +66,7 @@ public class EstruturaSequencial {
 		DecimalFormat formato = new DecimalFormat("#.#");
 		double C = 5*((F-32)/9);
 		
-		System.out.println("9) A temperatura em ºC para " + formato.format(F) + " ºF" + ", é " +  formato.format(C) + ".");
+		System.out.println("L1-9) A temperatura em ºC para " + formato.format(F) + " ºF" + ", é " +  formato.format(C) + ".");
 	}
 	
 	public void ex10(double C) {
@@ -75,7 +75,7 @@ public class EstruturaSequencial {
 		DecimalFormat formato = new DecimalFormat("#.#");
 		double F = (C*1.8)+32;
 		
-		System.out.println("10) A temperatura em ºF para " + formato.format(C) + " ºC" + ", é " +  formato.format(F) + ".");
+		System.out.println("L1-10) A temperatura em ºF para " + formato.format(C) + " ºC" + ", é " +  formato.format(F) + ".");
 	}
 	
 	public void ex11(int x, int y, double z) {
@@ -87,7 +87,7 @@ public class EstruturaSequencial {
 		DecimalFormat formato = new DecimalFormat("#.#");
 		double x2 = ((2*x)*(y/2)), y2 = ((3*x)+z), z2 = (z*z*z);
 		
-		System.out.println("11)a) O produto do dobro de x com metade de y é igual a " + formato.format(x2) + ".");
+		System.out.println("L1-11)a) O produto do dobro de x com metade de y é igual a " + formato.format(x2) + ".");
 		System.out.println("b) A soma do triplo de x com z é igual a " + formato.format(y2) + ".");
 		System.out.println("c) Z ao cubo é igual a " + formato.format(z2) + ".");
 	}
@@ -99,7 +99,7 @@ public class EstruturaSequencial {
 		DecimalFormat formato = new DecimalFormat("#.##");
 		double P = (a*72.7)-58;
 		
-		System.out.println("12) O peso ideal para alguem com altura " + formato.format(a) + " m, é " + formato.format(P) + "kg.");
+		System.out.println("L1-12) O peso ideal para alguem com altura " + formato.format(a) + " m, é " + formato.format(P) + "kg.");
 	}
 	
 	public void ex13(double h) {
@@ -109,7 +109,7 @@ public class EstruturaSequencial {
 		DecimalFormat formato = new DecimalFormat("#.##");
 		double PH = (h*72.7)-58, PM = (62.1*h)-44.7;
 		
-		System.out.println("13) O peso ideal para alguem com altura " + formato.format(h) + " m, é " + formato.format(PH) + "kg para homens e " + formato.format(PM) + "kg para mulheres.");
+		System.out.println("L1-13) O peso ideal para alguem com altura " + formato.format(h) + " m, é " + formato.format(PH) + "kg para homens e " + formato.format(PM) + "kg para mulheres.");
 	}
 	
 	public void ex14(double peso) {
@@ -122,7 +122,7 @@ public class EstruturaSequencial {
 		DecimalFormat formato = new DecimalFormat("#.##");
 		double excesso = peso-50, multa = excesso*4.00;
 		
-		System.out.println("14) Para um peixe de " + formato.format(peso) + " kg, o excesso de peso é de " + formato.format(excesso) + " kg e a multa a ser paga é de R$ " + formato.format(multa) + ".");
+		System.out.println("L1-14) Para um peixe de " + formato.format(peso) + " kg, o excesso de peso é de " + formato.format(excesso) + " kg e a multa a ser paga é de R$ " + formato.format(multa) + ".");
 	}
 	
 	public void ex15(double v, int t) {
@@ -140,7 +140,7 @@ public class EstruturaSequencial {
 		double ir = sb*0.11, inss = sb*0.08, sind = sb*0.05;
 		double desc = (ir+inss+sind) , sl = sb-desc; 
 		
-		System.out.println("15) Para um salario bruto de R$ " + formato.format(sb) + ", são descontados:");
+		System.out.println("L1-15) Para um salario bruto de R$ " + formato.format(sb) + ", são descontados:");
 		System.out.println("a) R$ " + formato.format(ir) + " pelo imposto de renda.");
 		System.out.println("b) R$ " + formato.format(inss) + " pelo INSS.");
 		System.out.println("c) R$ " + formato.format(sind) + " pelo sindicato.");
@@ -159,7 +159,7 @@ public class EstruturaSequencial {
 		int l = (int)cb/18;
 		double c = (double)l*80.00;
 		
-		System.out.println("16)a) Para uma área de " + formato.format(a) + "m, são necessárias " + formato.format(l) + " latas de tinta.");
+		System.out.println("L1-16)a) Para uma área de " + formato.format(a) + "m, são necessárias " + formato.format(l) + " latas de tinta.");
 		System.out.println("b) O total gasto será de R$ " + formato.format(c) + ".");
 	}
 	
@@ -180,7 +180,7 @@ public class EstruturaSequencial {
 		double cl = (double)l*80.00; 
 		double cg = (double)gl*25.00;
 		
-		System.out.println("17)a) Para uma área de " + formato.format(a) + "m, são necessárias " + formato.format(l) + " latas de tinta.");
+		System.out.println("L1-17)a) Para uma área de " + formato.format(a) + "m, são necessárias " + formato.format(l) + " latas de tinta.");
 		System.out.println("b) Para uma área de " + formato.format(a) + "m, são necessárias " + formato.format(gl) + " galões de tinta.");
 		System.out.println("c) O total gasto será de R$ " + formato.format(cl) + " em latas, ou então, R$ " + formato.format(cg) + " em galões.");
 	}
@@ -193,6 +193,6 @@ public class EstruturaSequencial {
 		DecimalFormat formato = new DecimalFormat("#.#");
 		int tempo = (int)t/(int)v;
 			
-		System.out.println("18) Um arquivo de " + formato.format(t) + " mb será baixado em " + tempo + " minutos, sob a velocidade de " + formato.format(v) + " mb/s.");
+		System.out.println("L1-18) Um arquivo de " + formato.format(t) + " mb será baixado em " + tempo + " minutos, sob a velocidade de " + formato.format(v) + " mb/s.");
 	}
 }

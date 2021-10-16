@@ -23,6 +23,13 @@ public class Main {
 		eS.ex16(8);
 		eS.ex17(64);
 		eS.ex18(1024,10);
+		eD.ex1(4,3);
+		eD.ex2(0);
+		eD.ex3("f");
+		eD.ex4("2");
+		eD.ex5(10, 10);
+		eD.ex6(3, 1, -8);
+		eD.ex7(9, 5, 9);
 	}
 
 }
