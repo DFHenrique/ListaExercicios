@@ -27,9 +27,16 @@ public class Main {
 		eD.ex2(0);
 		eD.ex3("f");
 		eD.ex4("2");
-		eD.ex5(10, 10);
+		eD.ex5(9, 8);
 		eD.ex6(3, 1, -8);
 		eD.ex7(9, 5, 9);
+		eD.ex8(5.20, 3.60, 8.10);
+		eD.ex9(1, 8, 3);
+		eD.ex10("M");
+		eD.ex11(5500.00);
+		eD.ex12(5,200);
+		eD.ex13(15);
+		eD.ex14(8.5,9.5);
 	}
 
 }
